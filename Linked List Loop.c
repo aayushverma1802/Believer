@@ -26,13 +26,6 @@ void findloop(struct Node *head) {
     }
     printf("No Loop in Linked List\n");
 }
-void fuck(struct Node *head){
-    struct Node *slow,*fast;
-    slow=fast=head;
-    while(slow&&fast&&fast->next){
-
-    }
-}
 int main(){
     struct Node *head=(struct Node *)malloc(sizeof(struct Node));
     struct Node *s=(struct Node *)malloc(sizeof(struct Node));
