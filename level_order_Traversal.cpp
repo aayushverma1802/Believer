@@ -101,7 +101,7 @@ void Level_Order_Traversal(struct Node *root)
         printf("%d ", root->data);
         q.pop();
 
-        if (root->right != NULL)
+        if (root->left != NULL)
         {
             q.push(root->left);
         }
