@@ -137,36 +137,6 @@ int iterSearch(struct Node *root, int key)
     }
     return 0;
 }
-void insert(struct Node *root, int key)
-{
-    struct Node *prev = NULL;
-    while (root != NULL)
-    {
-        prev = root;
-        if (key == root->data)
-        {
-            cout << "Cannot Insert !!\n Element Already existing\n";
-            return;
-        }
-        else if (key < root->data)
-        {
-            root = root->left;
-        }
-        else
-        {
-            root = root->right;
-        }
-    }
-    struct Node *newk = createNode(key);
-    if (key < prev->data)
-    {
-        prev->left = newk;
-    }
-    else
-    {
-        prev->right = newk;
-    }
-}
 void inser1t(struct Node *root, int key)
 {
     struct Node *prev = NULL;
