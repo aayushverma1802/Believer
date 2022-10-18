@@ -6,12 +6,11 @@ struct stack{
     int top;
     int * arr;
 };
- 
 int isEmpty(struct stack* ptr){
     if(ptr->top == -1){
             return 1;
         }
-        else{
+     else{
             return 0;
         }
 }
@@ -53,6 +52,5 @@ int main(){
     sp->top = -1;
     sp->arr = (int *) malloc(sp->size * sizeof(int));
     printf("Stack created !!");
- 
     return 0;
 }
