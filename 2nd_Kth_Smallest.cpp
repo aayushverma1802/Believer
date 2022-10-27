@@ -37,7 +37,6 @@ void inOrder(BinaryTreeNode<int>* root,int &i ,int k){
     //R
       inOrder(root->right,i,k);
 }
-
 int kthSmallest(BinaryTreeNode<int>* root, int k) {
     int i=0;
     ans=-1;
