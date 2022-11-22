@@ -19,7 +19,7 @@ public:
         while (index > 1)
         {
             int parent = index / 2;
-            if (arr[parent], arr[index])
+            if (arr[parent] < arr[index])
             {
                 swap(arr[parent], arr[index]);
                 index = parent;
