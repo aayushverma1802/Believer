@@ -28,7 +28,7 @@ int isFull(struct stack *ptr)
         return 0;
     }
 }
-void push(struct stack *ptr, int data)
+void push(struct stack *ptr, char data)
 {
     ptr->top++;
     ptr->arr[ptr->top] = data;
