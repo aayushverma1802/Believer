@@ -106,7 +106,7 @@ int main()
         heapify(arr,n,i);
     }
     // printing the array
-    for(int i=1;i<n;i++){
+    for(int i=1;i<=n;i++){
         cout<<arr[i]<<" ";
     }cout<<endl;
     return 69;
