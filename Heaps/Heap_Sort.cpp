@@ -47,7 +47,6 @@ public:
         }
         arr[1] = arr[size];
         size--;
-
         // Take roots to its correct position
         int i = 1;
         while (i < size)
