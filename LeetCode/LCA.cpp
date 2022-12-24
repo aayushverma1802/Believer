@@ -18,7 +18,7 @@ public:
         if(t1==NULL){
             return t2;
         }
-        else if(t2==NULL){
+        if(t2==NULL){
             return t1;
         }
         else{
