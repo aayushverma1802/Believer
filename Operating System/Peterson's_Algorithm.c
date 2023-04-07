@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <pthread.h>
+
 void *work(void *s);
 int flag[2];
 int turn, val = 0;
