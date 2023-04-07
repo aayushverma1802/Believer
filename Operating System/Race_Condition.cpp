@@ -8,7 +8,16 @@ void task()
     // Range is 1 Crore
     for (int i = 0; i < 10000000; i++)
     {
+        /*Race Condition Occurs due to the interal working of 
+        "temp"*/
         count = count + 1;
+        /*Internally
+        
+        temp=count+1
+        count=temp
+        
+        This creates a Race condition in our OS
+        */
     }
 }
 int main()
