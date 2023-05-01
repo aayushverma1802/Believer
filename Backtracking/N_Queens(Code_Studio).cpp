@@ -1,4 +1,3 @@
-
 void addSolution(vector<vector<int>> &ans, vector<vector<int>> &board, int n)
 {
     vector<int> temp;
