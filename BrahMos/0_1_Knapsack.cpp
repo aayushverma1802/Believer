@@ -1,5 +1,5 @@
 #include <bits/stdc++.h> 
-int solve(vector<int> &weight, vector<int> &value, int n, int W, vector<vector<int>> &dp)
+int solve(vector<int> &weight, vector<int> &value, int n, int W, vector<vector<int>> &dp) 
 {
     if (n == 0)
     {
