@@ -4,7 +4,7 @@ int solve(vector<int> &weight, vector<int> &value, int n, int W, vector<vector<i
     if (n == 0)
     {  
         if (weight[0] <= W)
-        {
+        { 
             return value[0]; 
         }
         else
