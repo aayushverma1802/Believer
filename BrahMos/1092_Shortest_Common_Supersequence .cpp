@@ -1,6 +1,6 @@
 class Solution
 {
-public:
+public: 
     // Function to find the length of the longest common subsequence
     int f(int ind1, int ind2, string &s1, string &s2, vector<vector<int>> &dp)
     {
