@@ -7,7 +7,7 @@ public:
         vector<vector<int>> freq(n, vector<int>(26, 0));
         for (int i = 0; i < n; i++)
         {
-            string curr = words[i];
+            string curr = words[i]; 
             for (auto &c : curr)
             {
                 freq[i][c - 'a']++;
