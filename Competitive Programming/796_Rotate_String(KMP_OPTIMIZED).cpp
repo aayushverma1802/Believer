@@ -15,7 +15,7 @@ public:
     }
 };
 /* 
-Rotate stl format
+Rotate stl format 
  rotate(s.begin(), s.begin() + 1, s.end());
 
  (starting range, which position will become starting range,end of the range)
