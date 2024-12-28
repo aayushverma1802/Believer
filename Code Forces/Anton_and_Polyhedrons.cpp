@@ -3,7 +3,7 @@
 #include <string>
 using namespace std;
 int main()
-{
+{ 
     unordered_map<string, int> m;
     m.insert({"Icosahedron", 20});
     m.insert({"Cube", 6});
