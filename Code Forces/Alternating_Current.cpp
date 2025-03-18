@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     stack<int>st; 
-    string s;
+    string s; 
     cin>>s;
     for(int i=0;i<s.size();i++){
         if(!st.empty() and st.top()==s[i])
