@@ -1,7 +1,7 @@
 class Solution
 {
 public:
-    int numEnclaves(vector<vector<int>> &grid)
+    int numEnclaves(vector<vector<int>> &grid) 
     {
         queue<pair<int, int>> q;
         int n = grid.size();
