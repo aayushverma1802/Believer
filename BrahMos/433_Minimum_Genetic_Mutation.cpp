@@ -8,7 +8,7 @@ public:
         vector<char> k = {'A', 'C', 'G', 'T'};
         q.push({0, startGene});
         int ans = INT_MIN;
-        while (q.empty() == false)
+        while (q.empty() == false) 
         {
             string n = q.front().second;
             int c = q.front().first;
