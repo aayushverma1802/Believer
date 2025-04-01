@@ -7,7 +7,7 @@ public:
         for (auto i : adj[node])
         {
             if (color[i] == -1)
-            {
+            { 
                 color[i] = !color[node];
                 if (!bip(n, adj, i, color))
                     return false;
