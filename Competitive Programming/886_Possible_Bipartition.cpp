@@ -1,6 +1,6 @@
 class Solution
 {
-public:
+public: 
     bool bip(int n, vector<vector<int>> &adj, int node, vector<int> &color)
     {
 
