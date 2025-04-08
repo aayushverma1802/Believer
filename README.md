@@ -1,4 +1,4 @@
-![hy](https://github.com/user-attachments/assets/d050c88e-2144-48a9-bee1-0ec0bb93ec81)
+<img src="https://github.com/user-attachments/assets/d050c88e-2144-48a9-bee1-0ec0bb93ec81" width="350" height="450"/>
 
 
 Go watch my codes instead of wasting your time here by reading this README.       
