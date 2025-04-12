@@ -5,7 +5,7 @@ public:
     vector<int> s;
     CustomStack(int maxSize)
     {
-        n = maxSize;
+        n = maxSize; 
         vector<int> s(n, 0);
     }
     vector<int> st = s;
