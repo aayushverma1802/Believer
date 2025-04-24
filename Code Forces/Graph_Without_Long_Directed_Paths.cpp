@@ -6,7 +6,7 @@ bool bipartite(vector<vector<int>> &adj, int u, vector<bool> &col, vector<bool> 
 
 {
     vis[u] = true;
-    for (auto i : adj[u])
+    for (auto i : adj[u]) 
     {
         if (vis[i] && col[u] == col[i]) // If already visited and same color, return false
         {
