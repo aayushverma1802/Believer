@@ -9,7 +9,7 @@
         {
             int n, m;
             cin >> n >> m;
-            vector<vector<int>> mat(n, vector<int>(m));
+            vector<vector<int>> mat(n, vector<int>(m)); 
             int rowFix = 0, colFix=0;
             for (int i = 0; i < n; i++)
             {
