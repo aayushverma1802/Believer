@@ -10,7 +10,7 @@ public:
 
         ListNode *nxt = curr->next;
         int index = 1;
-        int fcp = -1, pcp = -1;
+        int fcp = -1, pcp = -1; 
         int minDist = INT_MAX;
 
         while (nxt != nullptr)
