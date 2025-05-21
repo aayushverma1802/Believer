@@ -4,7 +4,7 @@
 // range updates to an array.
 // It helps to do multiple updates
 // in constant time.
- 
+  
 class Solution {
 public:
     bool isZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
