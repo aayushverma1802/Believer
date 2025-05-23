@@ -17,7 +17,7 @@ public:
             m.insert(headA);
             headA = headA->next;
         }
-        while (headB != NULL)
+        while (headB != NULL) 
         {
             if (m.find(headB) != m.end())
             {
