@@ -6,7 +6,7 @@ public:
     MinStack()
     {
     }
-
+ 
     void push(int val)
     {
         if (mini.empty() == true or mini.top() >= val)
