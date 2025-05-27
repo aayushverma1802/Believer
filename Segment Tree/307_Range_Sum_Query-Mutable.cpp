@@ -50,7 +50,7 @@ public:
     NumArray(vector<int> &nums)
     {
         n = nums.size();
-        segmentTree.resize(4 * n);
+        segmentTree.resize(4 * n); // always use 4*n for upper bound
         buildSegmentTree(0, 0, n - 1, nums);
     }
 
