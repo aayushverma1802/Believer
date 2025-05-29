@@ -30,6 +30,7 @@ int Query(int start, int end, int i, int l, int r, int segmentTree[])
         return segmentTree[i];
     }
     int mid = l + (r - l) / 2;
+// query acc to code 
     return min(Query(start, end, 2 * i + 1, l, mid, segmentTree), Query(start, end, 2 * i + 2, mid + 1, r, segmentTree));
 }
 
