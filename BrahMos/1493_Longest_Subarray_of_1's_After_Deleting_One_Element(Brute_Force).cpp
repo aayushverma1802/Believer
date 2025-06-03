@@ -1,6 +1,6 @@
 class Solution
 {
-public:
+public: 
     vector<int> getAverages(vector<int> &nums, int k)
     {
         if (k == 0)
