@@ -9,7 +9,7 @@ public:
 
         if (M >= N || N - M != 1)
             return false;
-
+ 
         int i = 0, j = 0;
         while (i < M && j < N)
         {
